@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #040505;
+    --accent-color: #e6eaee;
+    --link-color: #f13939;
+    --background-color: #e1e3e7;
+    --footer-background: #1c1c1c;
+    --section-background: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: var(--primary-color);
+    background-color:rgb(126, 151, 183);
+
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.nav-brand {
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.all-lists {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.list {
+    margin: 0 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover {
+    background-color: var(--link-color);
+    color: var(--background-color);
+}
+
+.hero {
+    padding: 3rem 1rem;
+    background-color: #f8f9fa; /* Light background color for contrast */
+    text-align: center;
+}
+
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.heading-highlight {
+    color: #007bff; /* Highlight color */
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.heading-inverted {
+    color: var(--link-color);
+}
+
+.section {
+    background: var(--section-background);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.projects {
+    background: var(--background-color);
+}
+
+.hr {
+    height: 1px;
+    background-color: var(--primary-color);
+    margin: 2rem 0;
+}
+
+.footer {
+    background-color: var(--footer-background);
+    color: var(--accent-color);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 -4px 8px var(--shadow-color);
+}
+
+.footer-d {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-e {
+    margin: 0 1rem;
+}
+.footer .contact-info {
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer .contact-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+
+.social {
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+.social-media {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #333; /* Dark background for contrast */
+    color: #f1f3f5; /* Light text color */
+    border-radius: 0.5rem;
+}
+
+.social-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-description {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+    margin: 0 1rem;
+}
+
+.social-link {
+    color: #f1f3f5;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+    border-bottom: 2px solid #007bff; /* Highlight color on hover */
+    color: #007bff;
+}
+.social:hover {
+    background-color: var(--link-color);
+    color: var(--background-color);
+}
+.project-img {
+    width: 100%;
+    max-width: 500px; /* Adjust based on your design */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
